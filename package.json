@@ -1,0 +1,25 @@
+{
+  "name": "consultas",
+  "homepage": "http://scmcp.pt/cons/",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "dayjs": "^1.8.30",
+    "isomorphic-fetch": "^2.2.1",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^9.4.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-hook-form": "^6.1.0",
+    "tailwindcss": "^1.5.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "next",
+    "start": "next start",
+    "build": "next build && next export"
+  },
+  "author": "Osvaldo Spencer",
+  "license": "MIT"
+}

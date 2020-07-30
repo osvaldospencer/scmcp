@@ -9,7 +9,8 @@ const MyApp = ({Component, pagesProps}) => {
     return (
         <Layout >
             <Component {...pagesProps} />
-        </Layout>
+        </Layout> 
+        
     )
 }
 export default MyApp

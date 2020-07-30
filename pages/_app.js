@@ -10,7 +10,7 @@ const MyApp = ({Component, pagesProps}) => {
         <Layout >
             <Component {...pagesProps} />
         </Layout> 
-        
+
     )
 }
 export default MyApp
